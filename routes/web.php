@@ -16,7 +16,7 @@ use App\Http\Controllers\UserController;
 */
 
 // show all book 
-Route::get('/', [BookController::class, 'index'])->middleware('auth');;
+Route::get('/', [BookController::class, 'index'])->middleware('auth');
 
 // show create form
 Route::get('/books/create', [BookController::class, 'create'])->middleware('auth');
