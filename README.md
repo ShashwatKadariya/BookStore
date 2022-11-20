@@ -1,3 +1,5 @@
+*note: I removed a extra semi-colon on 21st Nov and did no changes to the code.
+
 BookStore app
 
 create account add books to your account (create) 
